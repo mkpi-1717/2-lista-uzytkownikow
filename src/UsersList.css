@@ -1,0 +1,34 @@
+.the-list {
+    list-style: none;
+    padding-left: 0;
+    width: 250px;
+
+}
+
+.the-list li {
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.the-list li:hover {
+    background-color: rosybrown;
+    cursor: pointer;
+}
+
+.the-list li span {
+    position: absolute;
+    right: 10px;
+    font-weight: bold;
+    transition:  transform 0.5s;
+}
+
+.the-list li span:hover {
+    cursor: pointer;
+    transform: rotate(180deg);
+    color: red;
+}
